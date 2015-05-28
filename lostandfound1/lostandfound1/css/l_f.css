@@ -1,0 +1,247 @@
+* {
+    font-family: Times New Roman;
+    font-size: 16px;
+}
+
+header {
+    height: 90px;
+    border-bottom: 1px solid blue;
+    background-color: #E0FFFF;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 90px;
+    color: #3333CC;
+    font-family: Segoe Script;
+}
+
+.select_users {
+    position: absolute;
+    right: 55px;
+    top: 25px;
+}
+
+.select_users div {
+    position: relative;    
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.select_users h2 a {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.select_users h2 a:hover {
+   color: #A32824;
+}
+
+
+.lost_list {
+    float: left;
+    width: 175px;
+    margin-left: 100px;
+    
+}
+
+.lost_list h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+
+ul.favs li a {
+    display: block;
+    font-size: 0.9em;
+    text-decoration: none;
+    color: blue;
+    padding: 7px 5px 7px 5px;
+    margin-left: 10px;
+}
+
+ul.favs li a:hover {
+    background-color: #A32824;
+    color: white; 
+}
+
+.search_list, .movie_single {
+    margin-left: 500px;
+    width: 800px;
+    border-left: 1px dotted blue;
+    border-right: 1px dotted blue;
+}
+
+.search_list {
+    padding: 5px 5px 5px 5px;
+}
+
+.search_list h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.searchbar {
+    width: 800px;
+    margin-bottom: 10px;
+    padding: 10px 10px 20px 10px; 
+    border-bottom: 1px dotted blue;
+}
+
+.filter {
+    font-size: 1.1em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+.searchbar p {
+    font-size: 1.1em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    color: blue;
+    
+}
+
+.search {
+    padding: 10px 15px;
+    background: #E0FFFF;
+    border: 0px solid #dbdbdb;
+    width: 300px;
+    margin-left: 10px;
+}
+
+.button {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid #207cca;
+    background-color:#207cca;
+    color:#fafafa;
+}
+
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+.b_list {
+    margin-left: 150px;
+    
+}
+
+.button1 {
+    position:relative;
+    padding:6px 15px;
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 100px;
+    border:2px solid #207cca;
+    background-color:#207cca;
+    color:#fafafa;
+}
+
+.button1:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+.product {
+    margin-left: 25px;
+    display: inline-block;
+    position: relative;
+    color: blue;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 5px;
+}
+
+.location {
+    margin-left: 25px;
+    display: inline-block;
+    position: relative;
+    color: blue;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 8px;
+    
+}
+
+.list {
+    background-color: #E0FFFF;
+    border: 0px solid white;
+    height: 30px;
+    width: 150px;
+    color: #C0C0C0;
+}
+
+.ads li {
+  
+   margin-bottom: 15px;
+}
+
+.thumbnail {
+    width: 350px;
+    height: 250px;
+    
+}
+
+img {
+    border: 1px solid black;
+    margin-left: 2px;
+}
+
+.search_list figcaption {
+    display: block;
+    
+    padding-top: 10px;
+    
+}
+
+
+.found_list {
+    float: right;
+    
+    margin-right: 50px;
+    width: 200px;
+}
+
+.found_list h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+
+
+
+footer {
+    clear: both;
+    height: 60px;
+    border-top: 1px dotted blue;
+    border-bottom: 1px dotted blue;
+    margin-top: 30px;
+    background-color: #E0FFFF;
+}
+
+footer p {
+    line-height: 60px;
+    margin-left: 50px;
+    font-size: 1.0em;
+    font-weight: bold;
+}
